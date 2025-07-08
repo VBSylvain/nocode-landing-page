@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Automatisez votre gestion d'entreprise avec des applications web sur mesure. Réduisez 99% du temps de facturation. Offre limitée : 9 places gratuites restantes.">
+    <meta name="keywords" content="application web sur mesure PME Rhône-Alpes, automatisation facturation Make Airtable, créer application gestion entreprise sans code Lyon">
+    <meta name="author" content="Sylvain VIZZINI">
+    
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Automatisez votre entreprise - Applications web sur mesure">
+    <meta property="og:description" content="Réduisez 99% du temps de facturation. Offre limitée : 9 places gratuites.">
+    <meta property="og:type" content="website">
+    
+    <title>Sylvain VIZZINI - Développeur d'Applications Web sur Mesure | Automatisation PME</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-name">Sylvain VIZZINI</span>
+                    <span class="logo-tagline">Développeur d'Applications Web sur Mesure</span>
+                </div>
+                <nav class="nav-desktop">
+                    <a href="#benefices" class="nav-link">Bénéfices</a>
+                    <a href="#resultats" class="nav-link">Résultats</a>
+                    <a href="#processus" class="nav-link">Processus</a>
+                    <a href="#cta" class="btn btn-primary btn-small">Réserver mon créneau</a>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="nav-mobile">
+        <a href="#benefices" class="nav-link">Bénéfices</a>
+        <a href="#resultats" class="nav-link">Résultats</a>
+        <a href="#processus" class="nav-link">Processus</a>
+        <a href="#cta" class="btn btn-primary btn-small">Réserver mon créneau</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">🔥</span>
+                    <span>Offre limitée : <span id="seats-hero">9</span> places restantes sur 10</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Automatisez votre gestion d'entreprise et 
+                    <span class="text-gradient">réduisez 99% du temps de facturation</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Je crée des applications web sur mesure qui transforment vos processus manuels en systèmes automatisés. 
+                    <strong>Actuellement gratuit pour les 9 prochaines entreprises.</strong>
+                </p>
+                
+                <div class="hero-cta">
+                    <a href="#cta" class="btn btn-primary btn-large">
+                        Réserver mon créneau gratuit
+                        <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <p class="hero-disclaimer">Sans engagement • Documentation complète fournie</p>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">15 ans</div>
+                        <div class="stat-label">d'expérience digitale</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">99%</div>
+                        <div class="stat-label">de réduction du temps</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">propriétaire de vos outils</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <h2 class="section-title">Ces problèmes vous parlent ?</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">⏰</div>
+                    <h3>Perte de temps</h3>
+                    <p>Vous passez des heures sur des tâches répétitives qui pourraient être automatisées</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">📝</div>
+                    <h3>Erreurs manuelles</h3>
+                    <p>Les saisies manuelles génèrent des erreurs coûteuses et frustrent vos clients</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">💸</div>
+                    <h3>Coûts cachés</h3>
+                    <p>Le temps perdu en gestion manuelle représente un coût invisible mais réel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefices" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Transformez votre gestion en <span class="text-gradient">avantage compétitif</span></h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                        </svg>
+                    </div>
+                    <h3>Automatisation intelligente</h3>
+                    <p>Vos processus manuels deviennent automatiques. Inscriptions, factures, relances : tout se fait sans vous.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                            <path d="M2 17l10 5 10-5" />
+                            <path d="M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <h3>Solution évolutive</h3>
+                    <p>Commencez petit, grandissez sans limites. Votre application s'adapte à votre croissance.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="16" y1="13" x2="8" y2="13" />
+                            <line x1="16" y1="17" x2="8" y2="17" />
+                            <polyline points="10 9 9 9 8 9" />
+                        </svg>
+                    </div>
+                    <h3>Documentation complète</h3>
+                    <p>Restez propriétaire et autonome. Documentation détaillée pour modifier ou changer de prestataire.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="resultats" class="results">
+        <div class="container">
+            <h2 class="section-title">Résultats concrets avec Garric Danse Club</h2>
+            <div class="results-content">
+                <div class="results-story">
+                    <h3>Le défi</h3>
+                    <p>Garric Danse Club gérait manuellement les inscriptions de ses membres et passait des heures chaque mois sur la facturation. Les erreurs étaient fréquentes et le suivi difficile.</p>
+                    
+                    <h3>La solution</h3>
+                    <p>J'ai créé une application web sur mesure qui automatise l'ensemble du processus : inscription en ligne, génération automatique des factures, envoi par email, et synchronisation avec leur CRM Brevo.</p>
+                    
+                    <div class="results-metrics">
+                        <div class="metric">
+                            <div class="metric-value">99%</div>
+                            <div class="metric-label">Réduction du temps de facturation</div>
+                            <div class="metric-detail">De 10h à 6 minutes par mois</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">65%</div>
+                            <div class="metric-label">Gain sur la gestion des inscriptions</div>
+                            <div class="metric-detail">Process 100% digital</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">0</div>
+                            <div class="metric-label">Erreur de facturation</div>
+                            <div class="metric-detail">Depuis la mise en place</div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <p>"L'automatisation a transformé notre gestion. Ce qui prenait des journées se fait maintenant automatiquement. Nous pouvons enfin nous concentrer sur notre cœur de métier."</p>
+                        <cite>- Direction, Garric Danse Club</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="processus" class="process">
+        <div class="container">
+            <h2 class="section-title">Un processus simple et efficace</h2>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Découverte</h3>
+                    <p>30 min pour comprendre vos besoins et identifier les quick wins</p>
+                    <span class="step-duration">Jour 1</span>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Conception</h3>
+                    <p>Je conçois votre solution sur mesure avec Make, Airtable et Softr</p>
+                    <span class="step-duration">Semaine 1-2</span>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Développement</h3>
+                    <p>Construction itérative avec votre feedback continu</p>
+                    <span class="step-duration">Semaine 2-4</span>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Déploiement</h3>
+                    <p>Formation, documentation et accompagnement inclus</p>
+                    <span class="step-duration">Semaine 4+</span>
+                </div>
+            </div>
+            <p class="process-note">
+                <strong>Première version fonctionnelle en 30 jours.</strong> 
+                Projets complets livrés en 1 à 9 mois selon la complexité.
+            </p>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust">
+        <div class="container">
+            <h2 class="section-title">Pourquoi me faire confiance ?</h2>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">🎯</div>
+                    <h3>15 ans d'expérience digitale</h3>
+                    <p>Une expertise solide dans la transformation digitale des entreprises</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">🔒</div>
+                    <h3>Vous restez propriétaire</h3>
+                    <p>Documentation complète fournie pour garantir votre autonomie</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">🚀</div>
+                    <h3>Technologies éprouvées</h3>
+                    <p>Make.com, Airtable et Softr : des outils professionnels et fiables</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">🤝</div>
+                    <h3>Accompagnement complet</h3>
+                    <p>De la conception à la formation de vos équipes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-content">
+                    <div class="cta-badge">
+                        <span>⏰ Offre limitée dans le temps</span>
+                    </div>
+                    
+                    <h2 class="cta-title">
+                        Rejoignez les entreprises qui ont déjà automatisé leur gestion
+                    </h2>
+                    
+                    <div class="cta-urgency">
+                        <div class="urgency-item">
+                            <div class="urgency-number" id="seats-cta">9</div>
+                            <div class="urgency-label">places gratuites restantes</div>
+                        </div>
+                        <div class="urgency-divider"></div>
+                        <div class="urgency-item">
+                            <div class="urgency-number">3</div>
+                            <div class="urgency-label">entreprises ont réservé cette semaine</div>
+                        </div>
+                    </div>
+                    
+                    <p class="cta-description">
+                        Réservez votre créneau de découverte gratuit de 30 minutes. 
+                        Sans engagement, nous discuterons de vos besoins et je vous proposerai des solutions concrètes.
+                    </p>
+                    
+                    <div class="cta-benefits">
+                        <div class="cta-benefit">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span>100% gratuit pour les 9 premiers</span>
+                        </div>
+                        <div class="cta-benefit">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span>Sans engagement</span>
+                        </div>
+                        <div class="cta-benefit">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span>Conseils personnalisés</span>
+                        </div>
+                    </div>
+                    
+                    <a href="VOTRE_LIEN_CALENDLY" class="btn btn-primary btn-extra-large" target="_blank">
+                        Réserver mon créneau gratuit maintenant
+                        <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    
+                    <p class="cta-disclaimer">
+                        ⚠️ Disponibilité limitée : mercredis et weekends uniquement
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Questions fréquentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>C'est vraiment gratuit ?</h3>
+                    <p>Oui, absolument. Les 10 premiers projets (il reste 9 places) sont entièrement gratuits. C'est ma façon de lancer cette nouvelle activité et de construire mon portfolio.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Quels types d'entreprises acceptez-vous ?</h3>
+                    <p>PME et startups de 10 à 50 employés, associations, clubs... Tout structure ayant des processus manuels à automatiser.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Combien de temps dure un projet ?</h3>
+                    <p>Entre 1 et 9 mois selon la complexité. Vous aurez une première version fonctionnelle en 30 jours.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Et après le projet ?</h3>
+                    <p>Vous êtes 100% autonome grâce à la documentation complète. Vous pouvez modifier, faire évoluer ou changer de prestataire.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Quelles technologies utilisez-vous ?</h3>
+                    <p>Make.com pour l'automatisation, Airtable pour la base de données, et Softr pour l'interface. Des outils professionnels et évolutifs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Où êtes-vous basé ?</h3>
+                    <p>En Rhône-Alpes, mais je travaille 100% à distance. Nos échanges se font par visio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h4>Sylvain VIZZINI</h4>
+                    <p>Développeur d'Applications Web sur Mesure<br>
+                    Rhône-Alpes, France</p>
+                </div>
+                <div class="footer-cta">
+                    <p>Ne manquez pas cette opportunité unique</p>
+                    <a href="#cta" class="btn btn-secondary">Réserver maintenant</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sylvain VIZZINI. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
