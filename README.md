@@ -145,9 +145,87 @@ Les éléments apparaissent progressivement lors du défilement
 - Testez différents textes de CTA
 - Surveillez vos analytics pour optimiser
 
+## 📝 Conventions de commit
+
+### Structure des messages
+```
+<gitmoji> <type>: <description courte>
+
+<description détaillée optionnelle>
+```
+
+### Exemples de commits pour ce projet
+
+```bash
+# Mise à jour des places disponibles
+git commit -m "🔧 config: Update remaining seats to 7"
+
+# Ajout du lien Calendly
+git commit -m "🔗 feat: Add Calendly booking link"
+
+# Ajout de témoignages
+git commit -m "💬 content: Add customer testimonials section"
+
+# Optimisation des performances
+git commit -m "⚡ perf: Optimize images and add lazy loading"
+
+# Correction de bugs
+git commit -m "🐛 fix: Correct mobile menu z-index issue"
+
+# Mise à jour SEO
+git commit -m "🔍 seo: Update meta descriptions and keywords"
+
+# Amélioration du design
+git commit -m "💄 style: Update CTA button hover effects"
+
+# Ajout Analytics
+git commit -m "📈 feat: Add Google Analytics tracking"
+
+# Documentation
+git commit -m "📝 docs: Update README with new features"
+```
+
+### Gitmojis utiles pour ce projet
+
+| Emoji | Code | Description | Utilisation |
+|-------|------|-------------|-------------|
+| ✨ | `:sparkles:` | Nouvelle fonctionnalité | Ajout de sections, nouvelles features |
+| 🔧 | `:wrench:` | Configuration | Changement nombre de places, paramètres |
+| 💬 | `:speech_balloon:` | Contenu textuel | Mise à jour des textes, témoignages |
+| 🐛 | `:bug:` | Correction de bug | Résolution de problèmes |
+| 💄 | `:lipstick:` | UI/Style | Modifications CSS, animations |
+| ⚡ | `:zap:` | Performance | Optimisations, lazy loading |
+| 📱 | `:iphone:` | Responsive | Améliorations mobile |
+| 🔍 | `:mag:` | SEO | Meta tags, mots-clés |
+| 📈 | `:chart_with_upwards_trend:` | Analytics | Tracking, conversions |
+| 🔗 | `:link:` | Liens | Ajout de liens externes |
+| 📝 | `:memo:` | Documentation | Mise à jour README |
+| ♿ | `:wheelchair:` | Accessibilité | Améliorations a11y |
+| 🚀 | `:rocket:` | Déploiement | Mise en production |
+
+### Types de commits
+- **feat**: Nouvelle fonctionnalité
+- **fix**: Correction de bug  
+- **docs**: Documentation uniquement
+- **style**: Changements CSS/formatage
+- **refactor**: Refactoring du code
+- **perf**: Amélioration performances
+- **test**: Ajout de tests
+- **config**: Configuration
+- **content**: Contenu textuel
+- **seo**: Optimisation SEO
+
 ## 🤝 Support
 
 Pour toute question sur l'utilisation de cette landing page, n'hésitez pas à me contacter.
+
+## 🤖 Crédits
+
+Cette landing page a été expertement conçue et développée par **Claude.ai** (Claude 3.5 Sonnet) avec une expertise approfondie en :
+- Optimisation du taux de conversion (CRO)
+- Standards web modernes et accessibilité
+- SEO pour le marché français
+- Design psychology et UX
 
 ---
 
